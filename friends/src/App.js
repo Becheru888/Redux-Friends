@@ -1,6 +1,9 @@
-import React from 'react';
+import React from "react";
+import Login from "./components/Login";
+import Friends from "./components/Friends";
+import AddFriend from "./components/AddFriend";
 import { Route, Redirect } from "react-router";
-import './App.css';
+import "./App.css";
 
 class App extends React.Component {
   render() {

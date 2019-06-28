@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { combineReducers, createStore, compose, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 import { Provider } from "react-redux";
+import "./index.css";
+import App from "./App";
 import { LOGIN_SUCCESS } from "./actions/actionTypes";
 import * as reducers from "./reducers/reducers";
-import { combineReducers, createStore, compose, applyMiddleware } from "redux";
 import { BrowserRouter as Router } from "react-router-dom";
 
 

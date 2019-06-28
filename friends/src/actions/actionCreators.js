@@ -1,6 +1,6 @@
 import axios from 'axios';
 import * as types from "./actionTypes";
-import axiosAuth from '../axios/';
+import axiosAuth from '../axios/axiosAuth';
 
 export const fetchFriends = () => dispatch => {
     dispatch({ type: types.FETCH_FRIENDS });
